@@ -59,7 +59,7 @@ $(function () {
                 layer.msg(res.message)
                 //保存token
                 localStorage.setItem('token', res.token)
-                location.href = '/第二遍/code/home/dashboard.html'
+                location.href = '/第2遍/code/index.html'
             },
         })
     })

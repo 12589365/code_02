@@ -4,7 +4,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: url('/第二遍/code/assets/images/login_bg.jpg') no-repeat center;
+    background: url('/第2遍/code/assets/images/login_bg.jpg') no-repeat center;
     background-size: cover;
 }
 .loginAndRegBox {
@@ -18,7 +18,7 @@ body {
 }
 .title-box {
     height: 60px;
-    background: url('/第二遍/code/assets/images/login_title.png') no-repeat
+    background: url('/第2遍/code/assets/images/login_title.png') no-repeat
         center center;
 }
 .layui-form {
@@ -30,4 +30,15 @@ body {
 }
 .reg-box {
     display: none;
+}
+.layui-form-item {
+    position: relative;
+}
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.layui-input {
+    padding-left: 32px;
 }
